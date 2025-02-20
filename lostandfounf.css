@@ -1,0 +1,171 @@
+body{
+    /* background-color: black; */
+    /* background: black url('https://cdn.pixabay.com/photo/2024/12/12/18/32/landscape-9263545_1280.jpg') ; */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: 800px;
+    background-position-y:250px;
+}
+.photo{
+    position:absolute ;
+
+    width: 600px;
+    margin-left:  800px;
+    margin-top: 150px;
+    /* box-shadow: 0px 0px 50px 10px rgb(107, 107, 107); */
+    /* filter: grayscale(50%); */
+}
+
+
+/* .photo :hover{
+    filter: grayscale(0%);
+} */
+
+
+/* .photo2{
+    position:absolute ;
+
+    width: 100%;
+
+    margin-top: 150px;
+} */
+
+
+/* .box1{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+
+    margin-left: 850px;
+    margin-top: 100px;
+} */
+
+/* .triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red; 
+} */
+
+.box2{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    width: 100%;
+    height: 70px;
+}
+
+.logo a{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+.menue a{
+    /* font-family: sans-serif; */
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px 20px;
+    
+}
+
+.login a{
+    color: rgb(233, 230, 230);
+    font-size: large;
+    padding: 15px 30px 15px 30px ;
+    text-decoration: none;
+    border-radius:100px;
+    border: 1px solid white;
+    /* width: 200px; */
+    
+
+}
+.login a:hover{
+    background: rgb(248, 245, 245);
+    color: black;
+   
+}
+
+
+.menue a:hover{
+    text-decoration: underline;
+    color: rgb(152, 149, 149);
+
+}
+
+.logo a:hover{
+    text-decoration: underline;
+    color: rgb(139, 137, 135);
+
+}
+
+.text{
+    margin-top: 100px;
+}
+.text h1{
+    background: linear-gradient(to right, #5d65db, #45d4d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+.text p{
+    margin-top: -50px;
+    color: rgb(240, 240, 240);
+    width: 400px;
+    height: 200px;
+    font-size: larger;
+    margin-left: 100px;
+
+}
+
+
+
+.button1{
+    font-size: larger;
+    color: rgb(233, 230, 230);
+
+    border: 1px solid white;
+    padding: 15px 50px 15px 50px ;
+
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+.button:hover{
+    color: #45d4d9;
+    background: #5d65db;
+}
+
+/* .button2{
+    color: rgb(233, 230, 230);
+    font-size: large;
+    padding: 15px 50px 15px 50px ;
+    text-decoration: none;
+    border-radius:100px;
+    border: 1px solid white;
+
+} */
